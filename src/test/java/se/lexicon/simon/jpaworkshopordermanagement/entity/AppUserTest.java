@@ -45,7 +45,7 @@ class AppUserTest {
     void testToString() {
         String toString = testObject.toString();
 
-        assertTrue(toString.contains("0"));
+        assertTrue(toString.contains(Integer.toString(testObject.getId())));
         assertTrue(toString.contains(testObject.getFirstName()));
         assertTrue(toString.contains(testObject.getLastName()));
         assertTrue(toString.contains(testObject.getEmail()));
