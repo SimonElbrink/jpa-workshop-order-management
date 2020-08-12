@@ -7,6 +7,7 @@ public class Product {
 
     private int id;
     private String name;
+    // Create as a BigDecimal?
     private double price;
 
     public Product() {
