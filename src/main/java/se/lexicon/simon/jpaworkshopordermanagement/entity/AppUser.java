@@ -19,6 +19,13 @@ public class AppUser {
     public AppUser() {
     }
 
+    public AppUser(int id, String firstName, String lastName, String email) {
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+    }
+
     public AppUser(String firstName, String lastName, String email) {
         setFirstName(firstName);
         setLastName(lastName);

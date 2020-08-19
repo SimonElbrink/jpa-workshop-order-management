@@ -31,6 +31,13 @@ public class ProductOrder {
     public ProductOrder() {
     }
 
+    public ProductOrder(int id, LocalDateTime orderDateTime, List<OrderItem> orderItems, AppUser customer) {
+        this.id = id;
+        this.orderDateTime = orderDateTime;
+        this.orderItems = orderItems;
+        this.customer = customer;
+    }
+
     public ProductOrder(LocalDateTime orderDateTime, List<OrderItem> orderItems, AppUser customer) {
         this.orderDateTime = orderDateTime;
         this.orderItems = orderItems;

@@ -28,6 +28,13 @@ public class OrderItem {
     public OrderItem() {
     }
 
+    public OrderItem(int id, int quantity, Product product, ProductOrder productOrder) {
+        this.id = id;
+        this.quantity = quantity;
+        this.product = product;
+        this.productOrder = productOrder;
+    }
+
     public OrderItem(int quantity, Product product, ProductOrder productOrder) {
         this.quantity = quantity;
         this.product = product;

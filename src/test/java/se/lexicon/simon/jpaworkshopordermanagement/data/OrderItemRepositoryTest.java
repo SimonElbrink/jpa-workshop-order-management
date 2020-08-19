@@ -1,4 +1,4 @@
-package se.lexicon.simon.jpaworkshopordermanagement;
+package se.lexicon.simon.jpaworkshopordermanagement.data;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
